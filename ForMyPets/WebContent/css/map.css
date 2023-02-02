@@ -1,0 +1,28 @@
+     nav {
+            height:60px;
+            border-bottom-style:solid;
+            border-bottom-width:1px;
+            border-top-style: solid;
+            border-top-width:1px;
+        }
+
+        nav > ul {
+            margin:0px;
+            padding:0px;
+            height: 100%;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-left:200px;
+            margin-right:200px;
+        }
+        nav > ul > li {
+            list-style: none;
+        }
+        nav > ul > li:hover {
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            border-bottom: 15px;
+            text-decoration-color: rgb(245,186,59);
+        }
